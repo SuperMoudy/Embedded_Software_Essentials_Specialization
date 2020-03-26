@@ -59,7 +59,11 @@ void print_array(unsigned char arr[], unsigned int size);
 /**
  * @brief Find the median in a number set
  *
- * <Add Extended Description Here>
+ * This function takes as an input an array of 
+ * unsigned characters and an unsigned integer 
+ * representing its length. Then it finds its 
+ * median value which breaks the array into
+ * two halves.
  *
  * @param arr Array of unsigned characters
  * @param size The length of the array
@@ -74,8 +78,7 @@ unsigned char find_median(unsigned char arr[], unsigned int size);
  * This function takes as an input an array of 
  * unsigned characters and an unsigned integer 
  * representing its length. Then it finds its 
- * median value which breaks the array into
- * two halves.
+ * mean value (the average).
  *
  * @param arr Array of unsigned characters
  * @param size The length of the array
@@ -90,7 +93,7 @@ unsigned char find_mean(unsigned char arr[], unsigned int size);
  * This function takes as an input an array of 
  * unsigned characters and an unsigned integer 
  * representing its length. Then it finds its 
- * mean value (the average).
+ * maximum value.
  *
  * @param arr Array of unsigned characters
  * @param size The length of the array
