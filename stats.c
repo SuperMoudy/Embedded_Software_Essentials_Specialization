@@ -9,13 +9,21 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c
+ * @brief Statistical analysis of a number set
  *
- * <Add Extended Description Here>
+ * A simple C program performing statistical analysis 
+ * on an array of unsigned characters (as a number set).
+ * This analysis consists of:
+ * - Finding the median value
+ * - Finding the mean value
+ * - Finding the maximum value
+ * - Finding the minimum value
+ * - Sorting the number set
+ * - Printing the number set
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Mahmoud Hamdy
+ * @date Mar 26, 2020
  *
  */
 
@@ -40,4 +48,32 @@ void main() {
 
 }
 
-/* Add other Implementation File Code Here */
+void print_statistics(unsigned char arr, unsigned int size)
+{
+
+}
+
+void print_array(unsigned char arr, unsigned int size)
+{
+
+}
+
+unsigned char find_median(unsigned char arr, unsigned int size)
+{
+
+}
+
+unsigned char find_mean(unsigned char arr, unsigned int size)
+{
+
+}
+
+unsigned char find_maximum(unsigned char arr, unsigned int size)
+{
+
+}
+
+unsigned char find_minimum(unsigned char arr, unsigned int size)
+{
+
+}
