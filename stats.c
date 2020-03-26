@@ -45,8 +45,15 @@ void main() {
 
 
   /* Statistics and Printing Functions */
-  print_statistics(test, SIZE);
+  printf("Array before sorting:\n");
   print_array(test, SIZE);
+
+  printf("Array after sorting:\n");
+  sort_array(test, SIZE);
+  print_array(test, SIZE);
+
+  printf("Performing Statistical Analysis...\n");
+  print_statistics(test, SIZE);
 
 }
 
