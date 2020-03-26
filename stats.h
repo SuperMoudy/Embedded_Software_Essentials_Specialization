@@ -39,7 +39,7 @@
  *
  * @return This function doesn't return data
  */
-void print_statistics(unsigned char arr, unsigned int size);
+void print_statistics(unsigned char arr[], unsigned int size);
 
 /**
  * @brief Print the elements of the array
@@ -54,7 +54,7 @@ void print_statistics(unsigned char arr, unsigned int size);
  *
  * @return This function doesn't return data
  */
-void print_array(unsigned char arr, unsigned int size);
+void print_array(unsigned char arr[], unsigned int size);
 
 /**
  * @brief Find the median in a number set
@@ -66,7 +66,7 @@ void print_array(unsigned char arr, unsigned int size);
  *
  * @return The median value of the array
  */
-unsigned char find_median(unsigned char arr, unsigned int size);
+unsigned char find_median(unsigned char arr[], unsigned int size);
 
 /**
  * @brief Find the mean in a number set
@@ -82,7 +82,7 @@ unsigned char find_median(unsigned char arr, unsigned int size);
  *
  * @return The mean value of the array
  */
-unsigned char find_mean(unsigned char arr, unsigned int size);
+unsigned char find_mean(unsigned char arr[], unsigned int size);
 
 /**
  * @brief Find the maximum in a number set
@@ -97,7 +97,7 @@ unsigned char find_mean(unsigned char arr, unsigned int size);
  *
  * @return The maximum value of the array
  */
-unsigned char find_maximum(unsigned char arr, unsigned int size);
+unsigned char find_maximum(unsigned char arr[], unsigned int size);
 
 /**
  * @brief Find the minimum in a number set
@@ -112,7 +112,7 @@ unsigned char find_maximum(unsigned char arr, unsigned int size);
  *
  * @return The minimum value of the array
  */
-unsigned char find_minimum(unsigned char arr, unsigned int size);
+unsigned char find_minimum(unsigned char arr[], unsigned int size);
 
 /**
  * @brief Sort the array elements descendingly
@@ -127,7 +127,7 @@ unsigned char find_minimum(unsigned char arr, unsigned int size);
  *
  * @return This function doesn't return data
  */
-void sort_array(unsigned char arr, unsigned int size);
+void sort_array(unsigned char arr[], unsigned int size);
 
 
 #endif /* __STATS_H__ */
