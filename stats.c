@@ -92,7 +92,7 @@ unsigned char find_median(unsigned char arr[], unsigned int size)
 
 unsigned char find_mean(unsigned char arr[], unsigned int size)
 {
-  int sum = 0;
+  unsigned long int sum = 0;
   for(int i = 0; i < size; i++)
   {
     sum += arr[i];
